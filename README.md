@@ -11,4 +11,4 @@ Made From Scratch With Vanilla HTML, CSS, & JS.
 
 Coding Time: 01:17 HR
 
-Demo: https://kareemayman.github.io/Better-To-Do-App/
+Demo: https://kareemayman.github.io/Simple-To-Do-App/
