@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    background-color: #ededed;
+    width: 90%;
+}
+
+.container form {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container .input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.container .add {
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    background-color: orangered;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.container .add:hover {
+    background-color: rgb(161, 43, 0);
+}
+
+.tasks {
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    background-color: #ededed;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tasks div {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.tasks p {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+
+.tasks button {
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    transition: 0.1s;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.tasks button:hover {
+    background-color: rgb(170, 45, 0);
+}
+
+.tasks, 
+.container {
+    box-shadow: 0px 0px 8px 1px rgb(196, 196, 196);
+}
